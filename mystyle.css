@@ -1,0 +1,127 @@
+
+
+.my-button{
+width:290px;
+height:50px;
+font-size:20px;
+font-family:broadway;
+background-color:yellow;
+color:black;
+border:solid 5px black;
+border-radius:20px;
+
+}
+
+
+
+
+.my-button-1{
+width:290px;
+height:50px;
+font-size:20px;
+font-family:broadway;
+background-color:BD6B8F;
+color:black;
+border:solid 5px black;
+border-radius:20px;
+}
+
+
+.my-button-2{
+width:296px;
+height:50px;
+font-size:20px;
+font-family:broadway;
+background-color:green;
+color:black;
+border:solid 5px black;
+border-radius:20px;
+}
+
+
+
+.my-button-3{
+width:290px;
+height:50px;
+font-size:20px;
+font-family:broadway;
+background-color:maroon;
+color:black;
+border:solid 5px black;
+border-radius:20px;
+}
+
+
+.my-button-4{
+width:290px;
+height:50px;
+font-size:20px;
+font-family:broadway;
+background-color:orange;
+color:blacK;
+border:solid 5px black;
+border-radius:20px;
+}
+
+
+
+
+h2{
+animation:type 3s steps(22);
+overflow:hidden;
+white-space:nowrap;
+font-family:consolas;
+border-right:4px solid black;
+width:22ch;
+
+}
+@keyframes type{
+0%{
+width:0ch;
+}
+100%{
+width:22ch;
+}
+}
+
+button {
+    appearance: auto;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ; */
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.links a{
+    color:whitesmoke;
+}
